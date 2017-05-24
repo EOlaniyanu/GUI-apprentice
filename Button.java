@@ -79,30 +79,6 @@ public class Button extends Actor
     private void clickedAction()
     {
 
-        
-        
-        
-        // if( gOG[0].isPlaying())
-        // {
-             // gOG[0].stop();
-        // }
-        // else if( gOG[1].isPlaying())
-        // {
-            // gOG[1].stop();
-        // }
-        // else if( gOG[2].isPlaying())
-        // {
-            // gOG[2].stop();
-        // }
-        // else if( gOG[3].isPlaying())
-        // {
-            // gOG[3].stop();
-        // }
-        // else if( gOG[4].isPlaying())
-        // {
-            // gOG[4].stop();
-        // }
-        
         for( int i = 0; i < gOG.length; i++)
         {
             gOG[i].stop();
